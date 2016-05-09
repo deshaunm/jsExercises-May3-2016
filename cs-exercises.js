@@ -22,7 +22,12 @@ function exampleTwo(flag) {
   ie:
     checkBirthday(true) -> "It's you're birthday!"
 */
-
+function checkBirthday(happybirthday) {
+  if(happybirthday){  return "It's you're birthday!";
+    
+  } 
+ 
+}
 
 /*
   Create a function named 'checkHoliday' with one parameter.
@@ -31,8 +36,11 @@ function exampleTwo(flag) {
   ie:
     checkHoliday(true) -> "It's time to go to school!"
 */
-
-
+function checkHoliday(merrychristmas) {
+  if(!merrychristmas){ return "It's time to go to school!";
+  
+}
+}
 /*
   Create a function named 'light' with one parameter.
   Name the parameter anything you want
@@ -41,7 +49,13 @@ function exampleTwo(flag) {
     light(true) -> "Turn light off"
     light(false) -> "Turn light on"
 */
-
+function light(lightbulb) {
+  if(lightbulb){
+    return "Turn light off"
+  } else{
+    return "Turn light on"
+  }
+}
 
 /*
   Create a function named 'engine' with two parameters.
@@ -53,7 +67,9 @@ function exampleTwo(flag) {
     engine(false, true) -> "Shutdown"
     engine(false, false) -> "Shutdown"
 */
-
+function engine(car,motor) {
+  if(car,motor);
+}
 
 /*
   Create a function named 'gradeScore' with one parameter.
